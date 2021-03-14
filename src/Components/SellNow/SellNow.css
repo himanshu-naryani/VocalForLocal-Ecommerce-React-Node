@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+body {
+  margin: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+
+
+#search-btn{
+  border-radius: 40%;
+  border: 2px solid #FBAF00;
+  margin-left: 5%;
+}
+#searchbox{
+  border-radius: 20%;
+  border: 2px solid #FBAF00;
+}
+input::-webkit-input-placeholder
+{
+  background-color: #BFBFBF;
+  color: #0D3B66;
+  font-weight: bolder;
+}
+.navbar-brand {
+ 
+  font-family: 'Pacifico';
+}
+h5{
+  font-family: 'Pacifico';
+  
+}
+h5:hover{
+  color: #DA3E52;
+}
+.title{
+  color: #FBAF00;
+}
+
+#container{
+  
+  background-color:white;
+  padding-bottom: 360px;
+}
+.seller{
+  margin-left: 10%;
+  background-color: #BFBFBF;
+  text-align: center;
+  color: #DA3E52;
+  font-weight: bolder;
+}
+.ml-auto{
+  font-weight: bolder;
+  font-size: 22px;
+}
+#card{
+  border: 5px solid yellow;
+  border-radius: 10%;
+margin-left: 10px;
+max-width: 90%;
+margin-left: 100px;
+
+  
+}
+#my-form{
+  margin-top: 30px;
+  text-align: center;
+}
+
+#my-btn{
+  background-color: #0D3B66;
+  height: 40px;
+  width: 300px;
+  margin-right:100px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  color: #FBAF00;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#my-btn:hover{
+  background-color: #DA3E52;
+  box-shadow: #FBAF00;
+  transform: translateY(5px);
+}
+
+h1{
+  float: left;
+  color: #DA3E52;
+  size:50%;
+}
+#my-form{
+  display: block;
+  width: 40%;
+  height:40%;
+  margin:auto;
+  text-align: center;
+
+}
+.item {
+  padding-right: 322px;
+  color:#DA3E52;
+  max-width: 10px;
+  height: 40%;
+  font-family: 'Lato', sans-serif;
+  
+}
+.form{
+  color: #0D3B66;
+  font-weight: bold;
+ background-color: #DA3E52;
+   font-size: 20px; 
+   border:3px dashed #FBAF00;
+  
+}
+.footer{
+  color:#FBAF00;
+  background-color: #0D3B66;
+}
+ul{
+  color: #DA3E52;
+}
+#form-btn{
+  background-color: #FBAF00;
+  border-radius: 20%;
+  border:4px solid #0D3B66;
+  width: 30%;
+  height: 80%;
+  margin-top: 5px;
+}
+
+.nav{
+  background-color: pink;
+  height: 60px;
+  
+}

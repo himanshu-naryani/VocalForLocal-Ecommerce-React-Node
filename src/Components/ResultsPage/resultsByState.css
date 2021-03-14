@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+#resultsByState-heading {
+  font-size: 35px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.result-card {
+  height: 90%;
+  width: 60%;
+  border-radius: 10px;
+  border: 2px solid #FBAF00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.outer-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.result-product-image {
+  width: 150px;
+  height: 150px;
+  background-color: greenyellow;
+}
+
+.btn-buyNow {
+  background-color: #FBAF00;
+  color: white;
+  border: 1px solid #FBAF00;
+}
+
+.btn-buyNow:hover {
+  background-color: #DA3E52;
+  border: 1px solid #DA3E52;
+}
+/*# sourceMappingURL=resultsByState.css.map */

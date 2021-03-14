@@ -1,0 +1,29 @@
+{
+  "short_name": "Vocal for Local",
+  "name": "Vocal for Local",
+  "description":"Helps to connect sellers and buyers on the same platform",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "1200x1200",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+   
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",  
+  "background_color": "#3e82f0",
+  "prefer_related_applications": false
+
+}

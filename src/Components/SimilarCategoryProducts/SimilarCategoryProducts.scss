@@ -1,0 +1,22 @@
+.prod-details{
+    color: black;
+    font-size: 1.6vw;
+
+
+}
+
+.buy-btn{
+    border: none;
+    border-radius: 20px;
+    margin: 2%;
+    background-color: orangered;
+    padding: 7px 20px 7px 20px;
+    color: white;
+    &:hover{
+        background-color: orange;
+    }
+}
+
+.similar-category-div{
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+p, header {
+    text-align: left;
+}
+
+.state-heading {
+    font-weight: 700;
+}
+
+.container-img {
+    position: relative;
+
+}
+
+.container-img .img-stateProduct {
+    width: 100%;
+    height: auto;
+
+    &:hover {
+        filter: brightness(80%);
+        
+    }
+}
+
+.container-img .btn-shopNow {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+

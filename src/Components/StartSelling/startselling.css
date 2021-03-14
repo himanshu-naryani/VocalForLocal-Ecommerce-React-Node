@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico");
+#my-form {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  width: 50%;
+  height: 43%;
+  margin: auto;
+  text-align: center;
+}
+
+#my-form #form-btn {
+  background-color: #129b19;
+  border-radius: 20%;
+  border: none;
+  width: 30%;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 2%;
+}
+
+#my-form #form-btn:hover {
+  background-color: #fbaf00;
+  color: #da3e52;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  font-weight: 800;
+}
+
+.form {
+  color: #22108b;
+  font-weight: bold;
+  background-color: #d6cdcd;
+  font-size: 130%;
+  border: 3px dashed #FBAF00;
+  font-family: 'Lato', sans-serif;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input[type=text], .form select, .form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .form input[type=submit] {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .form input[type=submit] {
+    width: 20%;
+  }
+}
+
+.form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.wrapper {
+  max-width: 50%;
+  height: 40%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.marquee {
+  font-size: x-large;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+}
+/*# sourceMappingURL=startselling.css.map */

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+.footer{
+    
+    color:black;
+    background:linear-gradient(to bottom, wheat,beige);
+      font-family: 'Lato', sans-serif;
+      
+     a{
+       color: black;
+     }
+     a:hover{
+       color: #DA3E52;
+     }
+   }
+
+ 
+  
+  .title{
+    color: #FBAF00;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+    
+  }
+  .item {
+    padding-right: 160px;
+    color:black;
+    max-width: 10px;
+    height: 40%;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    
+  }
+  .list-unstyled{
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+   
+   
+  }
+  .list-unstyled:hover{
+    color:#DA3E52;
+    box-shadow: #FBAF00;
+    transform: translateY(2px);
+   
+  }
+  .title:hover{
+    color: #DA3E52;
+  }
+  ul{
+    color: black;
+  }
+ 

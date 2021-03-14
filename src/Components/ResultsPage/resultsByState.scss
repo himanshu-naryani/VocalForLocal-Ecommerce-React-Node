@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+$yellow: #FBAF00;
+$red: #DA3E52;
+
+
+#resultsByState-heading {
+    font-size: 35px;
+    padding-left: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.result-card {
+    
+    height: 90%;
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid $yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.outer-col {
+  
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
+}
+
+.result-product-image {
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+.btn-buyNow {
+    background-color: $yellow;
+    color: white;
+    border: 1px solid $yellow;
+
+    &:hover {
+        background-color: $red;
+        border: 1px solid $red;
+    }
+}
+
+
+
+#div-noProducts {
+  
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+}

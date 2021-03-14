@@ -1,0 +1,77 @@
+
+.home {
+  text-align: center;
+  
+  overflow-x: hidden;
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    
+    background-color: rgb(248, 240, 241);
+  }
+}
+
+.my-explore-products{
+  position: relative;
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 5%;
+  
+}
+
+.home-img{
+  margin-top: 50px ;
+  width: 96%;
+  height: 90%;
+  align-items: center; 
+  border-radius: 10px;
+  filter: brightness(100%);
+  @media only screen and (max-width: 1055px){
+    
+    height: 90%;
+  }
+  &:hover{
+    filter: brightness(90%);
+  }
+}
+
+.my-explore-products Button{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(240, 240, 63);
+  color: black;
+  border-radius: 30px;
+  
+  &:hover{
+  background-color: rgb(230, 230, 84);
+
+  }
+
+  @media only screen and (max-width: 768px){
+    top: 70%;
+    left: 60%;
+    font-size: small;
+    padding: 10px;
+  }
+
+  @media only screen and (min-width: 657px){
+    left: 60%;
+    top: 70%;
+    
+  }
+  
+}
+
+.start-sell-btn{
+  background-color: #e67e22 ;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  padding: 1% 2% 1% 2%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 5%;
+}

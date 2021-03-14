@@ -1,0 +1,126 @@
+
+
+// Colors
+$greenSeaweed: rgba(2, 128, 144, 1);
+$blueQueen: rgba(69, 105, 144, 1);
+$redFire: white;
+
+// Fonts
+$fontAsap: "Asap", sans-serif;
+
+.resethere {
+  font-family: $fontAsap;
+  opacity: 1.5;
+  background-color: rgb(137, 142, 182);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .resetform {
+    overflow: hidden;
+    
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: $redFire;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 150%;
+    transform: translate(-0%, -0%);
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 600px;
+      height: 720px;
+      margin-left: 35%;
+      border-top-left-radius: 40%;
+      border-top-right-radius: 45%;
+      border-bottom-left-radius: 35%;
+      border-bottom-right-radius: 40%;
+      z-index: -1;
+    }
+    &::after {
+      left: 48%;
+      bottom: -125%;
+      background-color: rgba($blueQueen, 0.17);
+      animation: wawes 7s infinite;
+    }
+    .inputWithIcon {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    input {
+      font-family: $fontAsap;
+      display: block;
+      border-radius: 5px;
+      font-size: 16px;
+      background: white;
+      width: 80%;
+      border: 0;
+      padding: 10px 10px;
+      padding-left: 30px;
+      margin: 15px -10px;
+    }
+
+    #submit {
+      font-family: $fontAsap;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      text-transform: uppercase;
+      width: 30%;
+      border: 0;
+      padding: 10px 0;
+      margin-top: 10px;
+      margin: auto;
+      border-radius: 5px;
+      background-color: $blueQueen;
+      color: white;
+      transition: background-color 300ms;
+      &:hover {
+        background-color: darken($greenSeaweed, 5%);
+      }
+    }
+  }
+  @keyframes wawes {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(270deg);
+    }
+  }
+  p:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgb(246, 246, 252);
+    position: absolute;
+    left: 0;
+    top: 98%;
+    margin-left: 38%;
+  }
+  p:after {
+    content: " ";
+    width: 120px;
+    height: 2px;
+    display: block;
+    background: rgb(242, 242, 248);
+    position: absolute;
+    right: 0;
+    top: 98%;
+    margin-right: 38%;
+  }
+}

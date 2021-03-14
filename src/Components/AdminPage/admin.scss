@@ -1,0 +1,21 @@
+  .addpromo-admin{
+    margin: 10vh 0 15vh 0;
+}
+@media screen and (max-width: 600px) {
+    .addpromo-admin{
+        margin-left: 15vw;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .addpromo-admin{
+        margin-left: 20vw;
+    }
+  }
+
+  
+  @media screen and (min-width: 900px) {
+    .addpromo-admin{
+        margin-left: 25vw;
+    }
+  }

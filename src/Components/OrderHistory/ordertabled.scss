@@ -1,0 +1,143 @@
+.ordertable{
+        background: linear-gradient(-45deg, #f8f7f7, #e9d0cb, #b6c6ca, #63eea8);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    padding-bottom: 1%;
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+.card-btn{
+    background-color: #fbaf00;
+    border:2px solid #da3e52;
+    border-radius:30px;
+    color:black;
+    font-weight:bolder;
+    &:hover{
+        background-color: #da3e52;
+        transform: translate(2px);
+    }
+}
+.function-block{
+    @media (max-width: 964px) {
+        padding-Right: 5%;
+        //padding-Left: 15%;
+        padding-top: 1%;
+        margin-top: -11%;
+        margin-left: 3%;
+        
+    }
+    @media (max-width: 599px){
+       
+        //margin-left: 30%;
+        margin-top: 5%;
+        
+         margin-right: 5%;
+       
+     
+    }
+}
+.contain{
+   
+    margin-bottom: 10px;
+    padding-bottom: 2%;
+    margin-top: 5px;
+    border-radius: 0px;
+    border:3px solid #da3e52;
+    border-left: 3px solid #fbaf00;
+    height: 130%;
+    @media (max-width: 964px) {
+        padding-bottom: 30px;
+    }
+    @media (max-width: 599px){
+        height: 140%;
+    }
+  &:hover{
+      border-radius: 20px;
+      box-shadow: 12px 8px 15px rgba(0,0,0,0.3),
+      15px 10px 5px rgba(235, 231, 27, 0.15),
+
+      10px 6px 4px rgba(238, 15, 15, 0.15),
+      inset 0 1px 2px yellow;
+     
+      transition: opacity 0.3s ease-in-out;
+  }
+}
+  
+.subheaderprice-order{
+    text-align: center;
+    padding:30% 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.subheader-order{
+    text-align: center;
+    padding:4% 12% 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.header-order{
+    text-align: center;
+    color: rebeccapurple;
+    padding:2% 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+    background: -webkit-linear-gradient( #da3e52,#0d3b66,#d15d6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.rating-orderitem{
+    padding:5% 0% 0% 4%;
+
+}
+
+.productcategory-orderitem{
+    padding:0% 0% 0% 8%;
+    
+
+}
+
+.productname-orderitem{
+    padding:5% 0% 0% 5%;
+    font-size: 2vw;
+}
+
+.productimage-orderitem{
+    height:14vw;
+    background-size: cover;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+   .productimage-orderitem {
+     height:100px
+    }
+}
+
+@media (max-width: 964px) {
+    .productimage-orderitem {
+      height:150px
+     }
+ }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.profile-heading {
+  position: relative;
+  font-size: 35px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-row {
+  background-color: hotpink;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.profile-column {
+  height: 100%;
+}
+
+.profile-body {
+  height: auto;
+  background-color: white;
+  width: 50%;
+}
+
+.div-button {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.btn-profile {
+  background-color: #FBAF00;
+  color: white;
+  border: 1px solid #FBAF00;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn-profile:hover {
+  background-color: #DA3E52;
+  border: 1px solid #DA3E52;
+}
+
+.profile-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.modal-title {
+  color: green;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=profilePage.css.map */

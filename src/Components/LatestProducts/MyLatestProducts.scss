@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+
+.latest-products{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-direction: row ;
+}
+
+.main-heading-latest{
+    font-family: 'Pacafico';
+    @media screen and (max-width: 425px){
+        font-size: xx-large;
+        font-weight: bold;
+    }
+}
+
+.myCard{
+    box-shadow: 5px 10px 18px #888888;
+    @media only screen and (max-width: 575px) {
+        margin: auto;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+.latest-images{
+    padding: 4%;
+    border-radius: 50%; 
+    height: 250px;
+    @media only screen and (max-width: 575px) {
+        width: 50%;
+        height: 150px;
+        
+
+    }
+}
+
+.my-btn{
+    border: none;
+    border-radius: 20px;
+    margin: 2%;
+    background-color: orangered;
+    padding: 7px 20px 7px 20px;
+    color: white;
+    &:hover{
+        background-color: orange;
+    }
+}
+
+.seeAll-btn{
+    margin-top: 3%;
+    background-color: #fbaf00 ;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding: 1% 2% 1% 2%;
+    border-radius: 20px;
+    border: none;
+    &:hover{
+        background-color: #da3e52 ;
+        transform: translateY(2px);
+    }   
+}

@@ -1,0 +1,162 @@
+.pay_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+  background-color: white;
+
+  flex-wrap: wrap;
+
+  .help_icon {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+  }
+  .secure_tag {
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(63, 66, 63);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.253) !important;
+    background-color: rgb(248, 250, 248);
+    top: 100%;
+    left: 26%;
+    width: 50%;
+    margin-top: 3.5%;
+    margin-bottom: 13%;
+    .text1 {
+      font-size: 15px;
+      font-weight: 80;
+      letter-spacing: 3px;
+      margin-bottom: 0.5%;
+      position: relative;
+      animation: text 3s 1;
+    }
+    .text2 {
+      font-size: 13px;
+      color: rgb(243, 124, 12);
+      font-family: cursive;
+    }
+    @keyframes text {
+      0% {
+        color: rgb(33, 233, 59);
+        margin-bottom: -60px;
+      }
+      30% {
+        letter-spacing: 20px;
+        margin-bottom: -40px;
+      }
+      85% {
+        letter-spacing: 4px;
+        margin-bottom: -40px;
+      }
+    }
+  }
+  .pay_top {
+    display: flex;
+    flex-direction: row;
+    .security {
+      display: flex;
+      flex-direction: row;
+      
+    }
+  }
+  .pay {
+    display: flex;
+    flex-direction: row;
+
+    width: 97%;
+    flex-wrap: wrap;
+    margin: auto;
+    @media only screen and (max-width: 575px) {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 5%;
+      flex: 2;
+    }
+    .pay_methods {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 1%;
+      flex-wrap: wrap;
+      flex: 2;
+      @media only screen and (max-width: 575px) {
+        display: flex;
+        flex-direction: column;
+      }
+      .pay_types {
+        flex: 1;
+        background-color: rgb(239, 241, 243);
+        .all_types {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          .each_type {
+        
+            overflow: hidden;
+            padding: 5%;
+            &:hover {
+              background-color: white;
+              color: rgb(10, 50, 233);
+              box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.253) !important;
+              
+              overflow: hidden;
+            }
+
+            border-bottom: 0.5px solid white;
+          }
+        }
+      }
+      .pay_details {
+        flex: 2;
+      }
+    }
+    .pay_price {
+      display: flex;
+      flex: 1;
+     
+      flex-direction: column;
+      margin-left: 1%;
+      background-color: rgb(250, 252, 253);
+      border: 1px solid gainsboro;
+      border-radius: 2%;
+      @media only screen and (max-width: 575px) {
+        margin-top: 5%;
+        flex: 1;
+      }
+      h5 {
+        font-weight: bold;
+        font-family: sans-serif;
+        margin: auto;
+        margin-bottom: 5%;
+        margin-top: 1%;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 1%;
+       
+      }
+      label {
+        align-items: flex-start;
+        margin-right: 30%;
+        width: 50%;
+        display: inline;
+      }
+
+      p {
+        margin-right: 0%;
+        
+      }
+      .pay_fee {
+        border-bottom: 1px solid black;
+      }
+    }
+    
+  }
+}

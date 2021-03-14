@@ -1,0 +1,68 @@
+.card_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.card_details h5 {
+  font-weight: bold;
+  margin: 1%;
+  margin-left: 2%;
+}
+
+.card_details .each_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2%;
+}
+
+.card_details .each_detail input {
+  padding: 1% 1% 1% 1%;
+  width: 90%;
+}
+
+.card_details .expiry_cvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.card_details .expiry_cvv .expiry {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.card_details .expiry_cvv .expiry input {
+  padding: 1% 1% 1% 1%;
+  width: 90%;
+}
+
+.card_details .expiry_cvv .cvv {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.card_details .expiry_cvv .cvv input {
+  padding: 1% 1% 1% 1%;
+  width: 70%;
+}
+/*# sourceMappingURL=Cards.css.map */

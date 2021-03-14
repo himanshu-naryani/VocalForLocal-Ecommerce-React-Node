@@ -1,0 +1,48 @@
+.upi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  h5 {
+    font-weight: bold;
+    margin: 1%;
+    margin-left: 4%;
+  }
+  .upi_methods {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+    align-items: center;
+    .each_pay {
+      display: flex;
+      flex-direction: row;
+
+    }
+  }
+
+ 
+}
+.upiform{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2% 2% 2%;
+  width: 75%;
+  margin-bottom: 2%;
+  margin: auto;
+ 
+  input {
+    padding: 1% 1% 1% 1%;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.253) !important;
+    &:hover{
+        
+    box-shadow: 1px 1px 2px 1px rgba(77, 79, 240, 0.253) !important;
+
+    }
+
+    border-radius: 3%;
+  }
+
+}

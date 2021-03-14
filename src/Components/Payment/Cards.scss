@@ -1,0 +1,50 @@
+.card_details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+  h5 {
+    font-weight: bold;
+    margin: 1%;
+    margin-left: 2%;
+  }
+  .each_detail {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    input {
+      padding: 1% 1% 1% 1%;
+      width: 90%;
+    }
+  }
+  .expiry_cvv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: 2%;
+
+    .expiry {
+      flex: 3;
+      input {
+        padding: 1% 1% 1% 1%;
+        width: 90%;
+      }
+    }
+    .cvv {
+      flex: 2;
+      input {
+        padding: 1% 1% 1% 1%;
+        width: 70%;
+      }
+    }
+ 
+  }
+}
+#sub_button {
+  width: 86%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}

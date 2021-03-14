@@ -1,0 +1,9 @@
+.sideitems:hover{
+ 
+    padding: 4%;
+    color: #ff664b;
+    font-weight: 1000;
+    transition: all ease-in-out 400ms;
+    margin-left: 2%;
+
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+$yellow: #FBAF00;
+$red: #DA3E52;
+
+#div-quantityContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+   
+    width: 100%;
+    justify-content: space-evenly;
+
+    #heading-quantity {
+       font-family: 'Lato';
+       font-weight: 700;
+    }
+
+    #div-errorMsg {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+       
+    }
+}
+
+
+#div-changeQuantity {
+    
+    
+    display: flex;
+    justify-content: flex-start;
+   
+    width: 20%;
+    margin-right: 3%;
+
+    .btn-quantity {
+        background-color: $yellow;
+        border: $yellow;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 40px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        &:hover {
+            background-color: $red;
+            font-weight: 800;
+        }
+    }
+}

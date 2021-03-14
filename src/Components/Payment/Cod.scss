@@ -1,0 +1,24 @@
+.cash_delivery {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  h5 {
+    font-weight: bold;
+    margin: 1%;
+    margin-left: 2%;
+  }
+  .text {
+    color: black;
+    font: message-box;
+    border: 1px solid #000000;
+    font-family: serif;
+    font-size: medium;
+    margin: 2%;
+    margin-bottom: 5%;
+    
+    padding: 2% 2% 2% 2%;
+    
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.253) !important;
+
+  }
+}

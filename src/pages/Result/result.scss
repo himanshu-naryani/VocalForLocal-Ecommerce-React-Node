@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+
+.filter-div {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    padding-top: 1%
+    
+}
+
+.filter-dropdown{
+    outline: none;
+    margin-right: 2%;
+    background-color: rgb(30, 224, 30);
+    font-size: '3vw';
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: none !important;
+    @media screen and (max-width: 920px) {
+        height: 80%
+    }
+    @media screen and (max-width: 415px) {
+        height: 70%
+
+    }
+}
+.show > .filter-dropdown:focus {
+    background: #00ffba !important;
+    border: none !important ;
+    box-shadow: none !important ;
+}
+
+.heading-div{
+    width: 50%;
+}
+
+.filter-dropdown-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 2%;
+    
+}
+
+.heading{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 2.3vw;
+    margin-left: 10%;
+
+    @media only screen and (max-width: 800px){
+        margin-right: 10%;
+        font-size: 1.2rem;
+    }
+}
+
+.products-div{
+    
+    width: 90%;
+    align-self: center;
+    
+    margin: auto;
+    text-align: center;
+
+    @media screen and (max-width: 600px){
+        align-items: center;
+    }
+   
+}
+

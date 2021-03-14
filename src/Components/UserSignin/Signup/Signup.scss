@@ -1,0 +1,143 @@
+
+
+
+$greenSeaweed: rgba(2, 128, 144, 1);
+$blueQueen: rgba(69, 105, 144, 1);
+$redFire: white;
+
+
+$fontAsap: "Asap", sans-serif;
+
+.signupcontainer {
+  font-family: $fontAsap;
+  opacity: 1.5;
+  background-color: rgb(137, 142, 182);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+
+.signup {
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.signupform {
+  overflow: hidden;
+  
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: $redFire;
+ 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  width: 50%;
+  transform: translate(-1%, -1%);
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 720px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+  }
+
+
+  &::after {
+    left: 71%;
+    bottom: -2%;
+    background-color: rgba($blueQueen, 0.17);
+    animation: wawes 7s infinite;
+  }
+  .inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .error{
+      margin: 1%;
+      color: red;
+      font-size: 10px;
+      width: 100%;
+      margin-left: 10%;
+  }
+
+  input {
+    font-family: $fontAsap;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    padding-left: 30px;
+    margin: 15px -10px;
+  }
+  #ifsc,#gst,#aadhar{
+    font-family: $fontAsap;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    padding-left:70px;
+    margin: 15px -10px;
+
+  }
+
+  #submit {
+    font-family: $fontAsap;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: $blueQueen;
+    color: white;
+    transition: background-color 300ms;
+    &:hover {
+      background-color: darken($greenSeaweed, 5%);
+    }
+  }
+  #seller {
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline;
+    border: 0;
+    margin-left: 0px;
+    width: 10%;
+    margin-left: -59%;
+  }
+  @keyframes wawes {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(270deg);
+    }
+  }
+}
+}

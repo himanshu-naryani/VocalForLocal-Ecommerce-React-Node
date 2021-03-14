@@ -1,0 +1,154 @@
+.pay_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.pay_container .pay_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pay_container .pay_top .security {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pay_container .pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 97%;
+  margin: auto;
+}
+
+.pay_container .pay .pay_methods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 1%;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.pay_container .pay .pay_methods .pay_types {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #e9e6e6;
+}
+
+.pay_container .pay .pay_methods .pay_types .all_types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pay_container .pay .pay_methods .pay_types .all_types .each_type {
+  margin-top: 1%;
+  border-bottom: 1.2px solid white;
+}
+
+.pay_container .pay .pay_methods .pay_types .all_types .each_type:hover {
+  background-color: white;
+  color: #0a32e9;
+  -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+          box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.pay_container .pay .pay_methods .pay_details {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.pay_container .pay .pay_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1%;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 2%;
+}
+
+.pay_container .pay .pay_price h5 {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.pay_container .pay .pay_price div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 1%;
+}
+
+.pay_container .pay .pay_price label {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 30%;
+  width: 50%;
+  display: inline;
+}
+
+.pay_container .pay .pay_price p {
+  margin-right: 0%;
+  margin-top: 3%;
+}
+
+.pay_container .pay .pay_price .pay_fee {
+  border-bottom: 1px solid black;
+}
+/*# sourceMappingURL=Payment.css.map */
